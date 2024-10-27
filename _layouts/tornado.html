@@ -15,10 +15,8 @@
           <a href="{{site.baseurl}}/assets/images/tornado/fulls/{{ image.path | split: '/' | last | split: '.' | first }}.jpg" class="image">
             <img src="{{site.baseurl}}/assets/images/tornado/thumbs/{{ image.path | split: '/' | last | split: '.' | first }}.jpg" alt="{{ image.title }}" />
           </a>
-          {% for image in site.data.images | where: "folder", "tornado" %}
-            <h2>{{ image.title }}</h2>
-            <p>{{ image.caption }}</p>
-          {% endfor %}
+          <h2>{{ image.title }}</h2>
+          <p>{{ image.caption }}</p>
         </article>
         {% endfor %}
 
