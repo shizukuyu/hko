@@ -15,8 +15,8 @@
           <a href="{{site.baseurl}}/assets/images/tornado/fulls/{{ image.path | split: '/' | last | split: '.' | first }}.jpg" class="image">
             <img src="{{site.baseurl}}/assets/images/tornado/thumbs/{{ image.path | split: '/' | last | split: '.' | first }}.jpg" alt="{{ image.title }}" />
           </a>
-          <h2>{{ image.title }}</h2>
-          <p>{{ image.caption }}</p>
+          <h2>{{ page.title }}</h2>
+          <p>{{ page.caption }}</p>
         </article>
         {% endfor %}
 
