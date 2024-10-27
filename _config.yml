@@ -1,10 +1,10 @@
-title: Multiverse by HTML5 UP
-author: João Neto
-email: joao@neto.pt
+title: Regional Reanalysis data for High Impact Weather Cases By 4DVar
+author: Suwen Jin
+email: swjin420@gmail.com
 description: >-
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
+  The Hong Kong Observatory (HO) plans to develop a Regional Re-analysis 
+  ("RRA") System based on the sophisticated four dimensional variational data assimilation (*4D-Var") technique to reconstruct the accurate regional weather condition over GBA at 1-2 km resolution for historical high impact weather cases.
+  The high-resolution GBA-RRA datasets produced will be useful for enhancing HKO's weather forecast and warning services for high impact weather.
 
 social:
   twitter: joaomlneto
