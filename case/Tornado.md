@@ -1,4 +1,4 @@
 ---
 title: Tornado
-layout: multiverse
+layout: tornado
 ---
