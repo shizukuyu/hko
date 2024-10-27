@@ -10,7 +10,7 @@
       {%- include header.html -%}
 
       <div id="main">
-        {% for image in site.images %}
+        {% for image in page.images %}
         <article class="thumb">
           <a href="{{site.baseurl}}/assets/images/tornado/fulls/{{ image.path | split: '/' | last | split: '.' | first }}.jpg" class="image">
             <img src="{{site.baseurl}}/assets/images/tornado/thumbs/{{ image.path | split: '/' | last | split: '.' | first }}.jpg" alt="{{ image.title }}" />
