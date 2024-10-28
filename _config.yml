@@ -22,4 +22,6 @@ plugins:
 collections:
   images:
     output: true
+  tornado:
+    output: true
 
