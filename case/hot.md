@@ -1,4 +1,4 @@
 ---
 title: Hot
-layout: multiverse
+layout: hot
 ---
