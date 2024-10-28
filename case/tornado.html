@@ -10,13 +10,13 @@
       {%- include header.html -%}
 
       <div id="main">
-        {% for image in site.images %}
+        {% for image in site.tornado %}
         <article class="thumb">
           <a href="{{site.baseurl}}/assets/images/tornado/fulls/{{ image.path | split: '/' | last | split: '.' | first }}.jpg" class="image">
             <img src="{{site.baseurl}}/assets/images/tornado/thumbs/{{ image.path | split: '/' | last | split: '.' | first }}.jpg" alt="{{ image.title }}" />
           </a>
-          <h2>{{ image.title }}</h2>
-          <p>{{ image.caption }}</p>
+          <h2>{{ tornado.title }}</h2>
+          <p>{{ tornado.caption }}</p>
         </article>
         {% endfor %}
 
