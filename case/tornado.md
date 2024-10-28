@@ -1,4 +1,5 @@
 ---
 title: tornado
-layout: tornado
+layout: case
+image_folder: tornado
 ---

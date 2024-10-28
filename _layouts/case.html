@@ -12,11 +12,11 @@
       <div id="main">
         {% for image in site.images %}
         <article class="thumb">
-          <a href="{{site.baseurl}}/assets/images/tornado/fulls/{{ image.path | split: '/' | last | split: '.' | first }}.jpg" class="image">
-            <img src="{{site.baseurl}}/assets/images/tornado/thumbs/{{ image.path | split: '/' | last | split: '.' | first }}.jpg" alt="{{ image.title }}" />
+          <a href="{{ site.baseurl }}/assets/images/{{ page.image_folder }}/fulls/{{ image.path | split: '/' | last | split: '.' | first }}.jpg" class="image">
+            <img src="{{ site.baseurl }}/assets/images/{{ page.image_folder }}/thumbs/{{ image.path | split: '/' | last | split: '.' | first }}.jpg" alt="{{ image.title }}" />
           </a>
-          <h2>{{ site.tornado.title }}</h2>
-          <p>{{ site.tornado.caption }}</p>
+          <h2>{{ image.title }}</h2>
+          <p>{{ image.caption }}</p>
         </article>
         {% endfor %}
 
