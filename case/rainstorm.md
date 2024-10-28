@@ -1,4 +1,4 @@
 ---
-title: rainstorm
-layout: multiverse
+title: Rainstorm
+layout: rainstorm
 ---

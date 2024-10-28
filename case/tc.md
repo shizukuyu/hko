@@ -1,4 +1,4 @@
 ---
-title: tc
-layout: multiverse
+title: Tropical Cyclone
+layout: tc
 ---

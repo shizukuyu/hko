@@ -10,10 +10,10 @@
       {%- include header.html -%}
 
       <div id="main">
-        {% for image in site.images %}
+        {% for image in site.tc %}
         <article class="thumb">
-          <a href="{{ site.baseurl }}/assets/images/{{ page.image_folder }}/fulls/{{ image.path | split: '/' | last | split: '.' | first }}.jpg" class="image">
-            <img src="{{ site.baseurl }}/assets/images/{{ page.image_folder }}/thumbs/{{ image.path | split: '/' | last | split: '.' | first }}.jpg" alt="{{ image.title }}" />
+          <a href="{{site.baseurl}}/assets/images/tc/fulls/{{ image.path | split: '/' | last | split: '.' | first }}.jpg" class="image">
+            <img src="{{site.baseurl}}/assets/images/tc/thumbs/{{ image.path | split: '/' | last | split: '.' | first }}.jpg" alt="{{ image.title }}" />
           </a>
           <h2>{{ image.title }}</h2>
           <p>{{ image.caption }}</p>

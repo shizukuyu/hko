@@ -24,5 +24,11 @@ collections:
     output: true
   tornado:
     output: true
+  hot:
+    output: true
+  rainstorm:
+    output: true
+  tc:
+    output: true
 
 
