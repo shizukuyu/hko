@@ -38,6 +38,14 @@ collections:
       output: true
   tc5:
       output: true
+  hot0:
+      output: true
+  torna0:
+      output: true
+  rain0:
+      output: true
+  tc0:
+      output: true
   
 
 
