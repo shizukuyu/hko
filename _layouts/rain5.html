@@ -10,7 +10,7 @@
       {%- include header.html -%}
 
       <div id="main">
-        {% for image in site.rainstorm %}
+        {% for image in site.rain5 %}
         <article class="thumb">
           <a href="{{site.baseurl}}/assets/images/rain5/fulls/{{ image.path | split: '/' | last | split: '.' | first }}.png" class="image">
             <img src="{{site.baseurl}}/assets/images/rain5/thumbs/{{ image.path | split: '/' | last | split: '.' | first }}.png" alt="{{ image.title }}" />

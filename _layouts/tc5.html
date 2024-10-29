@@ -10,7 +10,7 @@
       {%- include header.html -%}
 
       <div id="main">
-        {% for image in site.tc %}
+        {% for image in site.tc5 %}
         <article class="thumb">
           <a href="{{site.baseurl}}/assets/images/tc5/fulls/{{ image.path | split: '/' | last | split: '.' | first }}.png" class="image">
             <img src="{{site.baseurl}}/assets/images/tc5/thumbs/{{ image.path | split: '/' | last | split: '.' | first }}.png" alt="{{ image.title }}" />
