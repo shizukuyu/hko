@@ -1,4 +1,4 @@
 ---
-title: tornado
-layout: tornado
+title: Tropical Cyclone
+layout: tc5
 ---
